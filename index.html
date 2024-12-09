@@ -14,38 +14,38 @@
             <div class="text2">This is not a real online service!</div>
             <form class="form" action="/my-handling-form-page" method="post">
                 <legend>let's do this!</legend>
-                <p style="float:left;">
+                <p style="float:left;" class="firstname_field">
                   <label for="name">FIRST NAME</label>
-                  <input type="text" id="name" name="user_name" />
+                  <input class="fname" type="text" id="name" name="user_name" size="30"/>
                 </p>
                 
-                <p style="float:left;">
+                <p style="float:left;" class="lastname_field">
                     <label for="lastname">LAST NAME</label>
-                    <input type="text" id="lastname" name="user_lastname" />
+                    <input class="lname" type="text" id="lastname" name="user_lastname" size="30" />
                 </p>
                 <!--new line-->
                 <div style="clear:both;">&nbsp;</div>
                 
-                <p style="float:left;">
+                <p style="float:left;" class="email_field">
                     <label for="mail">EMAIL</label>
-                    <input type="email" id="mail" name="user_email" />
+                    <input class="mail" type="email" id="mail" name="user_email" size="30"/>
                 </p>
-                <p style="float:left;">
+                <p style="float:left;" class="number_field">
                     <label  for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                    <input class="number" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="30" required />
                 </p>
                 
                 <div style="clear:both;">&nbsp;</div>
 
-                <div style="float:left;">
+                <div style="float:left;" class="password">
                     <label for="pass">PASSWORD</label>
-                    <input type="password" id="pass" name="password"  required />
+                    <input class="password" type="password" id="pass" name="password" size="30" required />
                     
                 </div>
     
-                <div style="float:left;">
+                <div style="float:left;" class="confirm_password">
                     <label for="pass">CONFIRM PASSWORD</label>
-                    <input type="password" id="pass" name="password"  required />
+                    <input class="conf_password" type="password" id="pass" name="password"  size="30" required />
                  </div>
                 
               </form>
