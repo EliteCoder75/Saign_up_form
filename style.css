@@ -13,7 +13,7 @@ body {
     flex: 2 1 auto;
     width: 150px;
     margin-right: 200px;
-    background-color: white;
+    background-color: #E5E7EB;
 }
 
 .text1, .text2{
@@ -55,11 +55,42 @@ body {
 
 input:focus {
     outline: 2px solid #5f5cff;
+    box-shadow: 10px 10px lightblue;
   } 
 
-input:invalid {
-      
+input[type=password]:invalid {   
     outline: 2px solid #ff0000;   
-}  
+} 
 
+input[type=submit] {
+    background-color:#596D48;
+    color: white;
+
+}
+
+.button {
+    margin-top: 40px;
+    height:30px;
+    width:200px;
+}
+
+.login {
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+a:link {
+    color: rgb(29, 112, 4);
+    text-decoration: none;
+  }
+
+input {
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+}
+
+.another_form_color {
+    background-color: white;
+    padding: 40px;
+}
   
