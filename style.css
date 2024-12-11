@@ -1,4 +1,15 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
 
+@font-face {
+    font-family: 'typewriter';
+    src: url('fonts/Momot.TTF');
+    font-weight: 1000px;  
+    font-style: normal;
+}
+  
 
 body {
     background-color: black;
@@ -93,4 +104,34 @@ input {
     background-color: white;
     padding: 40px;
 }
-  
+
+.image_part {
+  background-image: url("photo.jpg");
+  background-size:cover;
+  flex: 1 1 auto;
+  width: 200px;
+  height: 1000px;
+  margin-left: 200px; 
+}
+
+.logo {
+    content:url("odin-lined.png");
+    width: 120px;
+    height: 150px;
+}​
+
+.container {
+    margin-top: 200px;
+    font-size: 50px;
+    
+}
+
+.odin_txt {
+    font : 1em "myFirstFont", monospace;
+    font-size: 120px;
+    color: #E5E7EB;
+    padding-top: 17px;
+}
+
+
+
