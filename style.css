@@ -133,5 +133,16 @@ input {
     padding-top: 17px;
 }
 
+.credit {
+    margin-top: 100%;
+    margin-left: 25%;
+    color:white;
+}
+
+div.credit > a {
+    color: white;
+    text-decoration: underline;
+}
+
 
 
